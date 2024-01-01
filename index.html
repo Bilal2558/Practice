@@ -1,11 +1,69 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Practice.css">
 </head>
 <body>
     <H1>Practice</H1>
+    
+    <ul>
+       
+        <li><div class="A">Font-family, background-color, color: rgb</div></li>
+        <hr>
+        <li><div class="B">HSL color</div></li>
+        <hr>
+        <li><div class="C"></div></li>
+        <hr>
+        <li><div class="D"></div></li>
+        <li><div class="E"></div></li>
+        <li><div class="F"></div></li>
+        <li><div class="G"></div></li>
+    </ul>
+
 </body>
-</html>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* unvisited link */
+a:link {
+  color: LIGHT BLUE;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+<h2>Styling a link depending on state</h2>
+
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+<h1>Demo of the :focus selector</h1>
+
+<p>Click inside the text fields to see a yellow background:</p>
+
+<form>
+  First name: <input type="text" name="firstname"><br>
+  Last name: <input type="text" name="lastname">
+</form>
+</body>
+</html
